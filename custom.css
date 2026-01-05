@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;600;700&display=swap');
+
+:root {
+    --oxec-font: 'Noto Sans SC', 'Microsoft YaHei', 'PingFang SC', 'Helvetica Neue', Arial, sans-serif;
+    --oxec-heading-color: #0f172a;
+    --oxec-text-color: #1f2933;
+}
+
+body {
+    font-family: var(--oxec-font);
+    color: var(--oxec-text-color);
+    line-height: 1.65;
+    font-size: 16px;
+    background-color: #ffffff;
+    text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--oxec-font);
+    font-weight: 700;
+    color: var(--oxec-heading-color);
+    letter-spacing: 0.4px;
+    line-height: 1.25;
+    margin: 0 0 0.6em;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--oxec-text-color);
+}
+
+.mkd-grid,
+.mkd-container,
+.mkd-container-inner,
+.mkd-section-inner,
+.vc_row,
+.wpb_column {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.mkd-section-title-holder,
+.mkd-title-holder,
+.mkd-title-holder .mkd-section-subtitle,
+.mkd-title-holder .mkd-title {
+    text-align: center;
+}
+
+.mkd-title-holder .mkd-title {
+    font-size: 32px;
+}
+
+.mkd-title-holder .mkd-section-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4b5563;
+}
+
+.mkd-btn,
+input,
+textarea,
+button,
+select {
+    font-family: var(--oxec-font);
+}
+
+nav ul li a,
+.menu-item a {
+    font-weight: 600;
+    letter-spacing: 0.2px;
+}
+
+.mkd-section .wpb_wrapper,
+.mkd-section .vc_column-inner {
+    text-align: left;
+}
+
+.footer-top-holder,
+.footer-bottom-holder {
+    text-align: center;
+}
