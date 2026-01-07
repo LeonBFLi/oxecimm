@@ -9,17 +9,22 @@ Template: libero
 */
 
 .mkd-drop-down > ul > li:hover > .second,
-.mkd-drop-down > ul > li:hover > .second.mkd-drop-down-start {
+.mkd-drop-down > ul > li:hover > .second.mkd-drop-down-start,
+.mkd-drop-down > ul > li:focus-within > .second {
   visibility: visible;
   opacity: 1;
   overflow: visible;
+  height: auto !important;
+  pointer-events: auto;
 }
 
-.mkd-drop-down > ul > li:hover > .second {
+.mkd-drop-down > ul > li:hover > .second,
+.mkd-drop-down > ul > li:focus-within > .second {
   top: 100%;
   z-index: 20;
 }
 
-.mkd-drop-down > ul > li:hover > .second > .inner {
+.mkd-drop-down > ul > li:hover > .second > .inner,
+.mkd-drop-down > ul > li:focus-within > .second > .inner {
   overflow: visible;
 }
