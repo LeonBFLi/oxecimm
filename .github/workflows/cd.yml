@@ -40,4 +40,4 @@ jobs:
             docker rmi oxecimm-site:latest || true
             docker pull ${{ secrets.DOCKERHUB_USERNAME }}/oxecimm-site:latest
             docker tag ${{ secrets.DOCKERHUB_USERNAME }}/oxecimm-site:latest oxecimm-site:latest
-            docker run -itd --name oxecimm-site -p 80:666 oxecimm-site
+            docker run -itd --name oxecimm-site -p 666:666 oxecimm-site

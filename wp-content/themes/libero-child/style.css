@@ -7,3 +7,19 @@ Author URI: http://themeforest.net/user/mikado-themes
 Version: 1.0.0
 Template: libero
 */
+
+.mkd-drop-down > ul > li:hover > .second,
+.mkd-drop-down > ul > li:hover > .second.mkd-drop-down-start {
+  visibility: visible;
+  opacity: 1;
+  overflow: visible;
+}
+
+.mkd-drop-down > ul > li:hover > .second {
+  top: 100%;
+  z-index: 20;
+}
+
+.mkd-drop-down > ul > li:hover > .second > .inner {
+  overflow: visible;
+}
